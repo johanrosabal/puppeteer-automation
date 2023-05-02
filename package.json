@@ -1,5 +1,43 @@
 {
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "type": "module",
   "dependencies": {
-    "pupeteer": "^0.0.1"
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "jsonfile": "^6.1.0"
+  },
+  "name": "puppeteer-automation",
+  "version": "1.0.0",
+  "description": "Automation Framework with JavaScript with Puppeteer",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "puppeteer": "^20.0.0"
+  },
+  "scripts": {
+    "test": "node ./src/tests/test-Pom.js",
+    "test-mocha": "mocha ./src/tests/**/*spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanrosabal/puppeteer-automation.git"
+  },
+  "keywords": [
+    "Automation",
+    "Puppeteer",
+    "JavasScript"
+  ],
+  "author": "Johan Rosabal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanrosabal/puppeteer-automation/issues"
+  },
+  "homepage": "https://github.com/johanrosabal/puppeteer-automation#readme",
+  "mocha": {
+    "spec": "./src/tests/**/*spec.js",
+    "timeout": "30000"
   }
 }

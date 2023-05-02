@@ -1,0 +1,12 @@
+{
+    "user": {
+        "valid":{
+            "email":"johan.manuel.rosabal@gmail.com",
+            "password":"12345678"
+        },
+        "invalid":{
+            "email":"johan.rosabal@gmail.com",
+            "password":"12345678"
+        }
+    }
+}
